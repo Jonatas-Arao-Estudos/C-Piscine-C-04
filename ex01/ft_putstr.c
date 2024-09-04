@@ -6,7 +6,7 @@
 /*   By: jarao-de <jarao-de@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 17:33:20 by jarao-de          #+#    #+#             */
-/*   Updated: 2024/08/20 17:48:08 by jarao-de         ###   ########.fr       */
+/*   Updated: 2024/09/04 11:07:42 by jarao-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putstr(char *str)
 {
-	int	index;
+	unsigned int	index;
 
 	index = 0;
 	while (str[index] != '\0')

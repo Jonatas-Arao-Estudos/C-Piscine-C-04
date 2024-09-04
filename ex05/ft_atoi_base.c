@@ -6,13 +6,13 @@
 /*   By: jarao-de <jarao-de@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 09:42:40 by jarao-de          #+#    #+#             */
-/*   Updated: 2024/09/04 10:33:12 by jarao-de         ###   ########.fr       */
+/*   Updated: 2024/09/04 11:08:41 by jarao-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strlen(char *str)
 {
-	int	index;
+	unsigned int	index;
 
 	index = 0;
 	while (str[index] != '\0')
@@ -64,10 +64,10 @@ int	ft_base_num(char str, char *base)
 
 int	ft_atoi_base(char *str, char *base)
 {
-	int	num;
-	int	index;
-	int	sign;
-	int	base_n;
+	unsigned int	index;
+	int				num;
+	int				sign;
+	int				base_n;
 
 	if (ft_check_base(base) == 0)
 		return (0);

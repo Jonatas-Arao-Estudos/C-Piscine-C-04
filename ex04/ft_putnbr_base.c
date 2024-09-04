@@ -6,7 +6,7 @@
 /*   By: jarao-de <jarao-de@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 14:57:45 by jarao-de          #+#    #+#             */
-/*   Updated: 2024/09/04 09:41:50 by jarao-de         ###   ########.fr       */
+/*   Updated: 2024/09/04 11:08:15 by jarao-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strlen(char *str)
 {
-	int	index;
+	unsigned int	index;
 
 	index = 0;
 	while (str[index] != '\0')

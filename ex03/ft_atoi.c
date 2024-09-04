@@ -6,15 +6,15 @@
 /*   By: jarao-de <jarao-de@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 14:37:14 by jarao-de          #+#    #+#             */
-/*   Updated: 2024/09/03 14:50:29 by jarao-de         ###   ########.fr       */
+/*   Updated: 2024/09/04 11:08:02 by jarao-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_atoi(char *str)
 {
-	int	num;
-	int	index;
-	int	sign;
+	unsigned int	index;
+	int				num;
+	int				sign;
 
 	index = 0;
 	num = 0;
